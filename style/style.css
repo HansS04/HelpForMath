@@ -1,0 +1,23 @@
+header{
+
+font-size: 50px;
+background-image: url(../img/pozadi.jpg);
+}
+.nadpis{
+    color: white;
+    padding: 150px;
+    font-size: larger;
+}
+#red{
+    color: red;
+}
+.kalkulacka{
+    margin-left: 670px;
+    font-size: 30px; 
+    color: rgb(49, 49, 128);
+    text-shadow: 2px 2px red;
+}
+.content{
+    margin-left: 50px;
+    
+}
