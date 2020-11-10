@@ -21,3 +21,25 @@ background-image: url(../img/pozadi.jpg);
     margin-left: 50px;
     
 }
+footer{
+    margin-top: 125px;
+    padding-left: 50px;
+    padding: 20px;
+    background-color:  rgb(229, 229, 231);
+}
+#nazvy{
+font-size: 20px;
+}
+.vysledek{
+    background-color: rgb(229, 229, 231);
+    border: 3px solid white;
+    border-radius:5px ;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.input{
+    font-size: 30px !important;
+}

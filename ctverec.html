@@ -34,29 +34,50 @@
                 <a class="dropdown-item" href="kruh.html">kruh</a>
               </div>
             </li>
-            <li ><p class="kalkulacka "> Online Kalkulačka</p></li>
+            <li ><p class="kalkulacka " style="margin-left: 1000px;"> Online Kalkulačka</p></li>
           </ul>
          
         </div>
       </nav>
-      <div class="content" >
-      <h2 style="font-size: 40px;" ><b>Pro výpočet základních matematický obrazců</b></h2>
-      <h3>Obvod</h3>
-      <ul>
-        <li>čtverec - 4xa </li>
-        <li>obdélník - 2x(a+b) </li>
-        <li>kruh - 2 x π x r </li>
-      </ul>
-      <h3>obsah</h3>
-      <ul>
-        <li>čtverec - a x a </li>
-        <li>obdélník - a x b </li>
-        <li>kruh - π x r x r </li>
-      </ul>
-
+      <div class=" row" style="margin-left: 200px;" >
+      <div class="col-sm-5">
+      <h2 style="font-size: 40px;" class="text-center" ><b>Obsah čtverce</b></h2>
+      <div class="form-group row">
+        <label style="margin-top: 30px; " id="nazvy" for="ctvereca" class="col-sm-3 col-form-label">Strana a v cm</label>
+        <div class="col-sm-9">
+            <input style="margin-top: 30px; padding:30px; font-size: ;" type="text" class="form-control input" name="ctvereca" id="ctvereca"
+                placeholder="Zadej stranu a" />
+        </div>
+       
     </div>
+    <div  class="vysledek ">
+   <button type="button" id="ctverecobs"  >Vysledek:</button>
+    <div id="vysledek1" ></div>
+
+    </div > 
+    <!---->
+    </div>
+    <div class="col-sm-5" style="margin-left: 100px;">
+        <h2 style="font-size: 40px;" class="text-center" ><b>Obvod čtverce</b></h2>
+        <div class="form-group row">
+          <label style="margin-top: 30px; " id="nazvy" for="ctvereca2" class="col-sm-3 col-form-label">Strana a v cm</label>
+          <div class="col-sm-9">
+              <input style="margin-top: 30px; padding:30px; font-size: ;" type="text" class="form-control input" name="ctvereca2" id="ctvereca2"
+                  placeholder="Zadej stranu a" />
+          </div>
+         
+      </div>
+      <div  class="vysledek ">
+     <button type="button" id="ctverecobv"  >Vysledek:</button>
+      <div id="vysledek2" ></div>
+  
+      </div > 
+      <!---->
+      </div>
+      </div>
     <footer>By Jan Slivka 2020 SSPU-Opava</footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/js.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
