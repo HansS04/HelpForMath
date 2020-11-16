@@ -41,67 +41,83 @@
       </nav>
       <div class=" row" style="margin-left: 150px;" >
       <div class="col-sm-5">
-      <h2 style="font-size: 30px;" class="text-center" ><b>Obsah čtverce</b></h2>
+      <h2 style="font-size: 30px;" class="text-center" ><b>Obsah obdélníku</b></h2>
       <div class="form-group row">
-        <label style="margin-top: 16px; " id="nazvy" for="ctvereca" class="col-sm-3 col-form-label">Strana a v cm</label>
+        <label style="margin-top: 16px; " id="nazvy" for="obdelnika" class="col-sm-3 col-form-label">Strana a v cm</label>
         <div class="col-sm-9">
-            <input style="margin-top: 22px; padding:10px; " type="text" class="form-control input" name="ctvereca" id="ctvereca"
+            <input style="margin-top: 22px; padding:10px; " type="text" class="form-control input" name="obdelnika" id="obdelnika"
                 placeholder="Zadej stranu a" />
         </div>
        
     </div>
+    <div class="form-group row">
+        <label style="margin-top: 5px; " id="nazvy" for="obdelnikb" class="col-sm-3 col-form-label">Strana b v cm</label>
+        <div class="col-sm-9">
+            <input style="margin-top: 10px; padding:10px; " type="text" class="form-control input" name="obdelnikb" id="obdelnikb"
+                placeholder="Zadej stranu b" />
+        </div>
+       
+    </div>
     <div  class="vysledek ">
-   <button type="button" id="ctverecobs"  >Vysledek:</button>
-    <div id="vysledek1" ></div>
+   <button type="button" id="obdelnikobs"  >Vysledek:</button>
+    <div id="obdelnikobs2" ></div>
 
     </div > 
     <!---->
     </div>
     <div class="col-sm-5" style="margin-left: 75px;">
-        <h2 style="font-size: 30px;" class="text-center" ><b>Obvod čtverce</b></h2>
+        <h2 style="font-size: 30px;" class="text-center" ><b>Obvod obdélníku</b></h2>
         <div class="form-group row">
-          <label style="margin-top: 16px; " id="nazvy" for="ctvereca2" class="col-sm-3 col-form-label">Strana a v cm</label>
+          <label style="margin-top: 16px; " id="nazvy" for="obdelnika2" class="col-sm-3 col-form-label">Strana a v cm</label>
           <div class="col-sm-9">
-              <input style="margin-top: 22px; padding:10px; " type="text" class="form-control input" name="ctvereca2" id="ctvereca2"
+              <input style="margin-top: 22px; padding:10px; " type="text" class="form-control input" name="obdelnika2" id="obdelnika2"
                   placeholder="Zadej stranu a" />
           </div>
          
       </div>
+      <div class="form-group row">
+        <label style="margin-top: 5px; " id="nazvy" for="obdelnikb2" class="col-sm-3 col-form-label">Strana b v cm</label>
+        <div class="col-sm-9">
+            <input style="margin-top: 10px; padding:10px; " type="text" class="form-control input" name="obdelnikb2" id="obdelnikb2"
+                placeholder="Zadej stranu b" />
+        </div>
+       
+    </div>
       <div  class="vysledek ">
-     <button type="button" id="ctverecobv"  >Vysledek:</button>
-      <div id="vysledek2" ></div>
+     <button type="button" id="obdelnikobv"  >Vysledek:</button>
+      <div id="obdelnikobv2" ></div>
   
       </div > 
       <!---->
       </div>
       <div class="col-sm-5" style="margin-top: 37.5px;">
         <h3>Slovní úloha</h3>
-          <p class="reseni">Vypočítej obsah čtverce, jesliže délka jeho strany a =78cm</p>
+          <p class="reseni">Vypočítej obsah obdélníku, jesliže délka jeho strany a =60cm, b=50cm</p>
           
           <h3>Správný výsledek:</h3>
           
-          <p class="reseni">S =  6084 cm</p>
+          <p class="reseni">S =  3000 cm^2</p>
           
           <h3>Řešení:</h3>
-         <p class="reseni"> a=78 <br>
-          S=a⋅a = 78 * 78 = 6084 cm^2  </p>
+         <p class="reseni"> a=60, b=50 <br>
+          S=a⋅b = 60 * 50 = 3000 cm^2  </p>
       </div>
       <div class="col-sm-5" style="margin-left: 75px; margin-top: 37.5px;">
         <h3>Slovní úloha</h3>
-          <p class="reseni">Vypočítej obvod čtverce, jesliže délka jeho strany a =78cm</p>
+          <p class="reseni">Vypočítej obvod obdélníku, jesliže délka jeho strany a =60cm b=60cm</p>
           
-          <h3>Správný výsledek:</h3>
+          <h3>Správný výsledek:</h3>s
           
-          <p class="reseni">o =  312 cm</p>
+          <p class="reseni">o =  240 cm</p>
           
           <h3>Řešení:</h3>
-         <p class="reseni"> a=78 <br>
-          o=4⋅ a=4 * 78= 312 cm  </p>
+         <p class="reseni"> a=60, b=60 <br>
+          o=2*(a+b)=2*(60 + 60)= 240 cm  </p>
       </div>
       </div>
     <footer>By Jan Slivka 2020 SSPU-Opava</footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/js.js"></script>
+    <script src="js/js1.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
