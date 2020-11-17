@@ -46,3 +46,10 @@ font-size: 20px;
 .reseni{
     font-size: 15px;
 }
+
+.test{
+    margin-left: 500px;
+    background-color:rgb(229, 229, 231) ;
+    padding: 60px;
+    margin-right: 500px;
+}

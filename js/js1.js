@@ -21,10 +21,11 @@ document.getElementById('obdelnikobs').addEventListener('click',function(){
 });
 /*obvod*/
 function obvod(a,b){
-    parseFloat(a);
-    parseFloat(b);
+    a = parseFloat(a);
+    b = parseFloat(b)
     a +=b;
-    return 2*a;
+    
+return 2*a
 }
 
 document.getElementById('obdelnikobv').addEventListener('click',function() {
